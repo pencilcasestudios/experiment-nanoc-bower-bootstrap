@@ -1,0 +1,50 @@
+Compiling the site
+==================
+cd ~/Projects/Clients/ExperimentNanocBowerBootstrap
+rm -rf .output tmp
+guard
+
+
+cd ~/Projects/Clients/ExperimentNanocBowerBootstrap
+nanoc view
+
+
+cd ~/Projects/Clients/ExperimentNanocBowerBootstrap
+tail -f crash.log
+
+
+
+
+
+
+
+
+
+Managing updates
+================
+cd ~/Projects/Clients/ExperimentNanocBowerBootstrap
+bower update
+bundle update
+gem cleanup
+rm -rf .output tmp .sass-cache
+guard
+
+
+
+
+
+
+
+
+
+Hints
+=====
+Bower
+-----
+bower init
+bower install bootstrap --save
+
+
+RSpec
+-----
+rspec --init
