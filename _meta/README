@@ -1,7 +1,7 @@
 Compiling the site
 ==================
 cd ~/Projects/Clients/ExperimentNanocBowerBootstrap
-rm -rf .output tmp
+rm -rf .output tmp .sass-cache
 guard
 
 
