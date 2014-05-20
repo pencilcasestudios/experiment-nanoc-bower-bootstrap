@@ -3,5 +3,6 @@
 .DS_Store
 .output
 .sass-cache
+bower_components
 output
 tmp
