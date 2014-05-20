@@ -1,0 +1,7 @@
+<% if @item[:title] %>
+	<%= @item[:title] %>
+<% else %>
+	 <%= @config[:site_sub_title] %>
+<% end %>
+
+&mdash; <%= @config[:site_name] %>
